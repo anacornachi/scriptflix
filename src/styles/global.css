@@ -1,0 +1,154 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+header {
+  height: 60px;
+}
+
+.company-name {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .company-name {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .company-name {
+    font-size: 35px;
+  }
+}
+
+span {
+  color: #ffde59;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffde59;
+  transform: scale(1.1);
+}
+
+@media (min-width: 1200px) {
+  a {
+    font-size: 25px;
+  }
+}
+
+button {
+  margin: 0;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  color: black;
+  background: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.bi-search {
+  right: 15px;
+}
+
+.bi-search:hover {
+  fill: #ffde59;
+}
+
+@media (min-width: 1200px) {
+  .bi-search {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  padding: 15px 5px;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    padding: 50px;
+  }
+}
+
+.card {
+  background: black;
+}
+
+.figure {
+  object-fit: contain;
+  height: 100%;
+  width: 100vw;
+}
+
+img {
+  min-height: 400px;
+}
+
+.description {
+  line-height: 35px;
+  padding-right: 100px;
+}
+
+.sub-titles {
+  color: #bfbfbf;
+  margin: 0;
+  display: inline-block;
+}
+
+.buscar {
+  font-size: 10px;
+  display: none;
+  height: 20px;
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.active {
+  display: block;
+}
+
+.buscar:focus {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .buscar {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .buscar {
+    height: 40px;
+    font-size: 25px;
+  }
+}
+
+.sub-titles span {
+  color: white;
+}
