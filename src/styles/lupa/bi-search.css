@@ -1,0 +1,14 @@
+.bi-search {
+  right: 15px;
+}
+
+.bi-search:hover {
+  fill: #ffde59;
+}
+
+@media (min-width: 1200px) {
+  .bi-search {
+    width: 25px;
+    height: 25px;
+  }
+}

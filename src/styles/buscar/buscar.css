@@ -1,0 +1,30 @@
+.buscar {
+  font-size: 10px;
+  display: none;
+  height: 20px;
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.active {
+  display: block;
+}
+
+.buscar:focus {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .buscar {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .buscar {
+    height: 40px;
+    font-size: 25px;
+  }
+}

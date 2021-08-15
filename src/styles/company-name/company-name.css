@@ -1,0 +1,15 @@
+.company-name {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .company-name {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .company-name {
+    font-size: 35px;
+  }
+}
