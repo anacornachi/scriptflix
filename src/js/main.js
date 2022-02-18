@@ -55,7 +55,7 @@ async function pesquisar() {
 
   // Chamar a api de filme
   // FORMA SINCRONA DE CHAMAR UMA API
-  // fetch(`http://www.omdbapi.com/?t=${search.value}&apikey=10109cdf`)
+  // fetch(`https://www.omdbapi.com/?t=${search.value}&apikey=10109cdf`)
   //   .then((response) => response.json())
   //   .then((data) => {
   //     console.log(data);
@@ -71,7 +71,7 @@ async function pesquisar() {
   }
 
   const request = await fetch(
-    `http://www.omdbapi.com/?t=${movieSearched}&apikey=10109cdf`
+    `https://www.omdbapi.com/?t=${movieSearched}&apikey=10109cdf`
   );
 
   const response = await request.json();
